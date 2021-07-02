@@ -362,7 +362,73 @@
 <hr>
 <br>
 <p align="center"><button onclick="answer()">Submit</button></p>
-<script src="OMR Sheet.js">
+<script>
+  function answer()
+{
+var score=0;
+var incorrect=0;
+{
+if(document.getElementById('correct1').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct2').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct3').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct4').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct5').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct6').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct7').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct8').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct9').checked)
+score++;
+else
+incorrect++;
+}
+{
+if(document.getElementById('correct10').checked)
+score++;
+else
+incorrect++;
+}
+window.location.href=("OMR Sheet(page2).html");
+}
 </script>
 </body>
 </html>
